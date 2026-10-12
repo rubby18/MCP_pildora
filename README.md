@@ -2,7 +2,6 @@
 
 Servidor MCP con dos herramientas:
 - `search_products`: busca por texto y/o precio máximo.
-- `get_product`: consulta por identificador.
 
 Los productos son ficticios y están en memoria. El proyecto publica herramientas MCP, pero no incluye un modelo de IA ni una base de datos.
 
@@ -37,16 +36,6 @@ Ejemplo para `search_products`:
   "maxPrice": 80
 }
 ```
-
-Ejemplo para `get_product`:
-
-```json
-{
-  "productId": "kb-01"
-}
-```
-
-Prueba también un ID inexistente, como `no-existe`, para ver el caso de error.
 
 ## Qué significa cada parte
 
