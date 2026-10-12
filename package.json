@@ -1,0 +1,12 @@
+{
+  "name": "mcp-tienda-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Demo educativa de MCP: herramientas para buscar productos y consultar detalles",
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "zod": "^4.0.0"
+  }
+}
